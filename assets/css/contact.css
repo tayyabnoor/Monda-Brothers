@@ -1,0 +1,92 @@
+.contact-section {
+    padding: 7px 0;
+    margin-top: 11rem;
+}
+
+.contact-section div h1{
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.contact-section h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-form {
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    min-height: 625px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.btn-primary {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    min-height: 512px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 71px;
+    margin-bottom: 50px;
+}
+
+.contact-info .info-item {
+    text-align: center;
+    margin: 0 15px;
+    color: #333;
+}
+
+.contact-info .info-item .icon {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.contact-info .info-item p {
+    margin: 0;
+    color: #666;
+}
+
+.padd-0{
+    padding: 0
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
