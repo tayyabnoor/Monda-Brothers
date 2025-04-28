@@ -2609,7 +2609,7 @@ section.big-block .client-logo {padding:10%;}
 	list-style: none;
 	margin-top: 0;
 }
-.slides, .slides:after {
+.slides, .slides:after, .video_main {
 	position: fixed;
 	width: 100%;
 	height: 100%;
