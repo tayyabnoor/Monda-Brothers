@@ -2554,7 +2554,7 @@ section.big-block .client-logo {padding:10%;}
    margin-top: 11px;
 }
 .logo-section-marg{
-   margin: 0px 0 0px 218px;
+   margin: 0px 0 0px 255px;
 }
 .logo-right-side-marg{
    margin: 0px 218px 0px 0px;
@@ -2605,7 +2605,7 @@ section.big-block .client-logo {padding:10%;}
 	border: 1px solid #fff;
 	color: #fff;
 }
-.slides {
+/* .slides {
 	list-style: none;
 	margin-top: 0;
 }
@@ -2653,7 +2653,7 @@ section.big-block .client-logo {padding:10%;}
 .slides li:nth-child(6) span {
 	background-image: url(../images/pink_shazaib/hero-2.png);
 	animation-delay: 25s;
-}
+} */
 
 .panel-body li{
    list-style: none;
@@ -2718,6 +2718,34 @@ section.big-block .client-logo {padding:10%;}
 
 .about-section-marg{
    margin-top: 115px;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  object-fit: cover;
+}
+
+/* Ensure the header text remains visible over the video */
+.m-header-text {
+  position: relative;
+  z-index: 1;
 }
 
 .banner div h1 {
